@@ -1,2 +1,2 @@
 ## Calendar exercise
-React example that replicates the cal command, using flex.
+React example that replicates the **cal** command, using flex.
