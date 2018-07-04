@@ -1,0 +1,46 @@
+.container {
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+    flex:1;
+    flex-direction: row;
+}
+header {
+    padding:4px;
+    align-self: stretch;
+    text-align: center;
+    font-weight: bold;
+}
+.weekContainer {
+    padding:3px;
+    align-self: stretch;
+    text-align: center;
+}
+.weekDay {
+    width:28px;
+    height:28px;
+    padding:3px;
+    text-align: center;
+    font-weight:600;
+}
+.daysContainer {
+    display:flex;
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding:4px;
+}
+.day{
+    width:23px;
+    height:23px;
+    padding:2px;
+    padding-top:4px;
+    font-size:14px;
+    text-align: center;
+    vertical-align: middle;
+}
+.highlighted {
+    background-color: black;
+    color: white;
+}
